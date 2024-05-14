@@ -17,7 +17,7 @@ import { clickOnNode } from "./progression";
 
 cytoscape.use(klay);
 
-const IMAGE_DIR = "src/assets/images";
+const IMAGE_DIR = "/images";
 
 let uniqueOrNodesIds = new Map();
 
