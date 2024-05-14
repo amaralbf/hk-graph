@@ -1,7 +1,5 @@
 import cytoscape, { Collection, NodeSingular } from "cytoscape";
 
-type Path = Collection | Array<Path>;
-
 export const searchPaths = (cy: cytoscape.Core, targetNode: NodeSingular) => {
   let visitedEdges: Array<NodeSingular> = [];
   let orNodes: Set<NodeSingular> = new Set();
